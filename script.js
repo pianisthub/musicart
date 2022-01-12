@@ -37,16 +37,124 @@ var songs,
     },
 
     {
-      name: "Manasa",
+       name: "Manasa",
       singer: "sidr",
       duration: "04:13",
       url: "songs/Lily.mp3",
       albumArt: "images/Bachelor.jpg",
     },
 
-    
-  ];
+    {
+      name: "End Of Time",
+      singer: "Alan Walker",
+      duration: "03:05",
+      url: "songs/End_Of_Time.mp3",
+      albumArt: "images/End_Of_Time.jpg",
+    },
 
+    {
+      name: "Alone Part II",
+      singer: "Alan Walker",
+      duration: "02:57",
+      url: "songs/Alone_Part_II.mp3",
+      albumArt: "images/Alone_Part_II.jpg",
+    },
+
+    {
+      name: "Sing Me To Sleep",
+      singer: "Alan Walker",
+      duration: "03:11",
+      url: "songs/Sing_Me_To_Sleep.mp3",
+      albumArt: "images/Sing_Me_To_Sleep.jpg",
+    },
+
+    {
+      name: "Ignite",
+      singer: "Alan Walker",
+      duration: "03:30",
+      url: "songs/Ignite.mp3",
+      albumArt: "images/Ignite.jpg",
+    },
+
+    {
+      name: "Faded",
+      singer: "Alan Walker",
+      duration: "03:32",
+      url: "songs/Faded.mp3",
+      albumArt: "images/Faded.jpg",
+    },
+
+    {
+      name: "Keep Holding On",
+      singer: "Avril Lavigne",
+      duration: "04:12",
+      url: "songs/Keep_Holding_On.mp3",
+      albumArt: "images/Keep_Holding_On.jpg",
+    },
+
+    {
+      name: "Give your heart a break",
+      singer: "Demi Lovato",
+      duration: "03:28",
+      url: "songs/Give_Your_Heart_a_Break.mp3",
+      albumArt: "images/Give_Your_Heart_a_Break.jpg",
+    },
+
+    {
+      name: "You are not alone",
+      singer: "Michael Jackson",
+      duration: "05:35",
+      url: "songs/You_Are_Not_Alone.mp3",
+      albumArt: "images/You_Are_Not_Alone.jpg",
+    },
+
+    {
+      name: "Skyscraper",
+      singer: "Demi Lovato",
+      duration: "03:11",
+      url: "songs/Skyscraper.mp3",
+      albumArt: "images/Skyscraper.jpg",
+    },
+
+    {
+      name: "Innocence",
+      singer: "Avril Lavigne",
+      duration: "03:50",
+      url: "songs/Innocence.mp3",
+      albumArt: "images/Keep_Holding_On.jpg",
+    },
+
+    {
+      name: "Wish you were here",
+      singer: "Avril Lavigne",
+      duration: "03:50",
+      url: "songs/Wish_You_Were_Here.mp3",
+      albumArt: "images/Wish_You_Were_Here.jpg",
+    },
+
+    {
+      name: "Heart Attack",
+      singer: "Demi Lovato",
+      duration: "03:29",
+      url: "songs/Heart_Attack.mp3",
+      albumArt: "images/Heart_Attack.jpg",
+    },
+
+    {
+      name: "Legends Never Die",
+      singer: "Alan Walker",
+      duration: "02:45",
+      url: "songs/Legends_Never_Die.mp3",
+      albumArt: "images/Legends_Never_Die.jpg",
+    },
+
+    {
+      name: "",
+      singer: "",
+      duration: "",
+      url: "",
+      albumArt: "",
+    },
   ];
 
 var korean = [
@@ -350,14 +458,12 @@ function generateElements(ko) {
       songs[i].name +
       `
 </div>
-
 <div class="card__song-info__singer">
 ` +
       songs[i].singer +
       `
 </div>
 </div>
-
 </div>
 </div>`;
   }
