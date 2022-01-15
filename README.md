@@ -1,8 +1,4 @@
-# Music-Player-v2.0 
 
-# Live At: https://abdulmoqueet.github.io/music-player/
-
-<<<<<<< HEAD
 * Date of posting: 22-March-2020
 * Created by: Abdul Moqueet
 *
@@ -23,5 +19,4 @@
 * Minimum Requirement: Height 350px.
 =======
 
-my first website
->>>>>>> parent of 8817e40 (Update README.md)
+
